@@ -13737,7 +13737,7 @@ sidebar-tab-background: &lt;&lt;colour tab-background&gt;&gt;
 sidebar-tab-border-selected: &lt;&lt;colour tab-border-selected&gt;&gt;
 sidebar-tab-border: &lt;&lt;colour tab-border&gt;&gt;
 sidebar-tab-divider: &lt;&lt;colour tab-divider&gt;&gt;
-sidebar-tab-foreground-selected: 
+sidebar-tab-foreground-selected:
 sidebar-tab-foreground: &lt;&lt;colour tab-foreground&gt;&gt;
 sidebar-tiddler-link-foreground-hover: #ffbb99
 sidebar-tiddler-link-foreground: #cc0000
@@ -15455,11 +15455,11 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 
 ! 2018-11-12
 
-* 增加智能K邻近聚类分析APP 
+* 增加智能K邻近聚类分析APP
 
 ! 2018-11-06
 
-* 增加智能关联规则挖掘APP 
+* 增加智能关联规则挖掘APP
 
 ! 2018-10-23
 
@@ -15606,7 +15606,7 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 司南是基于Web的项目管理和缺陷跟踪工具。它用日历和甘特图辅助项目及进度可视化显示，同时它又支持多项目管理。
 
 司南提供集成的项目管理功能，任务跟踪，并为多个版本控制选项的支持。
-司南完全支持敏捷软件开发过程，建立在Ruby on Rails的框架之上，可以跨平台和使用多种数据库。 
+司南完全支持敏捷软件开发过程，建立在Ruby on Rails的框架之上，可以跨平台和使用多种数据库。
 
 &lt;/div&gt;
 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
@@ -15796,8 +15796,6 @@ MAS已被用于解决各种商业和科技问题。例子包括建模组织行�
 &lt;/div&gt;
 
 &lt;div style=&quot;float:left&quot;&gt;
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-🏠 http://shike.in
 &lt;br&gt;&lt;br&gt;
 📞 +86 186 0119 2921
 &lt;br&gt;&lt;br&gt;
@@ -17130,7 +17128,7 @@ $tw.Wiki = function(options) {
 				var index = tiddlerTitles.indexOf(title);
 				if(index !== -1) {
 					tiddlerTitles.splice(index,1);
-				}				
+				}
 			}
 			// Record the new tiddler state
 			updateDescriptor["new"] = {
@@ -17277,7 +17275,7 @@ $tw.Wiki = function(options) {
 				}
 			} else {
 				if(pluginInfo[title]) {
-					delete pluginInfo[title];					
+					delete pluginInfo[title];
 					results.deletedPlugins.push(title);
 				}
 			}
@@ -18156,7 +18154,7 @@ $tw.loadTiddlersNode = function() {
 				type = parts[0];
 			if(parts.length  === 3 && ["plugins","themes","languages"].indexOf(type) !== -1) {
 				$tw.loadPlugins([parts[1] + "/" + parts[2]],$tw.config[type + "Path"],$tw.config[type + "EnvVar"]);
-			}			
+			}
 		}
 	});
 	// Load the tiddlers from the wiki directory
